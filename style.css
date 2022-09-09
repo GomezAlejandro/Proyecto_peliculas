@@ -1,0 +1,80 @@
+.body {
+    
+    height: 1600px;
+}
+
+.titulo{
+    color: #3999ff;
+    font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+body{
+    background-color: black;
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+    
+}
+
+#menu li > a{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
+#menu form > button{
+    font-size: 14px;
+}
+
+.slider1 {
+    position: absolute;
+    top: 150px;
+    z-index: 500;
+}
+
+.card {
+    width: 20%;
+    background: #141414;
+    border-radius: 4px;
+    transition: 0.2s linear;
+    margin: 3px;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.4);
+    z-index: 10;
+}
+
+.card-icon {
+    color: #141414;
+    padding: 0px !important;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video-card-text {
+    font-size: 12px;
+}
+
+.card-body {
+    display: none;
+    padding: 10px 15px;
+    position: absolute;
+    background-color: white;
+    top: 120px;
+    width: 100%;
+}
+
+.card:hover > .card-body {
+    display: block;
+}
+
+h4{
+    position: absolute;
+    top: 90px;
+    left: 280px;
+    font-size: 40px !important;
+    color: #3999ff ;
+}

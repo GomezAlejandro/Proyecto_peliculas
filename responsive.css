@@ -1,0 +1,18 @@
+@media(max-width: 767.98px){
+    .card {
+        width: 150px;
+    }
+
+    .slider1 {
+        top: 250px;
+        margin-left: 0px;
+    }
+
+    .card-icon {
+        font-size: 17px !important;
+    }
+
+    .card-body {
+        top: 80px;
+    }
+}
